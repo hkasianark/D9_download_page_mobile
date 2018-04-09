@@ -59,11 +59,11 @@
             $(".dwl_btn_block").click(function(event) {
                 console.log("點擊觸發")
                 $(".black_bg").css('opacity', '1').css('pointer-events', 'initial');
-                $('.pop_white').stop(true, false).animate({'bottom': '0'}, 100);
+                $('.pop_white').stop(true, false).animate({'bottom': '-810px'}, 100);
                 $('.hand').addClass('handAnimation');
             });
             $('.pop_close').click(function(event) {
-                $('.pop_white').stop(true, false).animate({'bottom': '-1000px'}, 100 , function(){
+                $('.pop_white').stop(true, false).animate({'bottom': '-1900px'}, 100 , function(){
                     $('.black_bg').delay(300).animate({'opacity': '0', 'pointer-events': 'none'}, 100 );
                 });
                 $('.hand').removeClass('handAnimation');
