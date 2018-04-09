@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin:0 0;padding: 0 0;font-family:'苹方-简';background:#333333;}
+
+/**********外层框架 开始**********/
+.outline_01{width:auto; height:auto;float:left;}
+.outline_02{width:100%;height:auto;float:left;}
+.block_out_01{width:100%;height:100%;float:left;display:block;margin-top:200px;}
+
+.block_out_02{width:100%;height:100%;float:left;background:white;display:block;}
+.block_out_02_bg{width:100%;height:100%;background:url(../imges/middle_bg.png) no-repeat;float:left;}
+
+.block_out_03{width:100%;height:100%;float:left;background:black;display:block;}
+/**********外层框架 结束**********/
+
+
+/**********区块1 开始**********/
+.black_cover{width:100%;height:auto;background:rgba(0,0,0,0.75);display:block;position:absolute;top:0px;z-index:1;margin-top:150px;}
+.top_bar_block{width:100%;height:200px;display:block;top:0px;position:fixed;z-index:100;background:rgba(0,0,0,0.50);}
+.top_bar_inside{width:725px;height:auto;margin:0 auto;display:block;line-height:150px;margin-top:-6px;}
+.top_bar_word{width:auto;height:auto;line-height:100px;color:white;font-size:60px;text-decoration:none;letter-spacing:5px;text-align:center;vertical-align:middle;}
+.top_bar_line{width:2px;height:50px;display:inline-block;background:#d5492e;vertical-align:middle;margin:0 35px;}
+
+.logo_block{width:auto;height:auto;display:block;position: relative;transform:translateY(50%);top:50%;margin-left:40px;}
+.logo{width:30%;height:auto;display:block;}
+.logo_sub{width:500px;height:auto;display:block;color:white;font-size:22px;letter-spacing:10px;padding-right:51px;margin:0 auto;margin-top:25px;text-align:center;}
+.logo_line{width:105px;height:2px;display:block;background:#d5492e;margin:0 auto;;margin-top:25px;}
+
+.next_btn_block{width:100%;height:auto;display:block;position:relative;}
+.next_btn{width:88px;height:88px;display:block;border-radius:500px;border:2px solid white;cursor:pointer;margin:0 auto; margin-top:290px;}
+.next_btn_line{width:2px;height:20px;display:block;margin:0 auto;background:white;}
+/**********区块1 结束**********/
+
+/**********区块2 開始**********/
+.middle_block{width:95%;height:auto;display:block;margin:25px auto;}
+
+.tittle{width:100%;height:auto;font-size:120px;font-family:'苹方-简';font-weight:500;text-align:center;margin:150px 0; display:block;position:relative;z-index: 99;}
+.tittle.black{color:black;}
+.tittle.white{color:white;margin-top:-20px;}
+
+.word{width:100%;height:auto;font-size:50px;font-family:'苹方-简';font-weight:300;display:block;letter-spacing:5px;text-align:center;line-height:100px;position:relative;z-index: 99;}
+.word.black{color:black;}
+.word.white{color:white;letter-spacing:1px;margin-top:-50px;}
+
+
+.btn{width:80%;;height:150px;border-radius:5000px;display:block;font-size:70px;font-family:'苹方-简';line-height:150px;text-align:center;margin:0 auto;border:2px solid black;color:black;transition:all 0.5s;margin-top:130px;margin-bottom:70px;} 
+.btn:hover{background:black;color:white;}
+
+.movie_btn{width: auto;height: auto; display:block;transition:all 0.5s;margin:0 auto;top:500px;}
+/**********区块2 结束**********/
+
+
+/**********区块3 结束**********/
+.bottom_block{width:95%;height:100%;display:block;margin:150px auto;}
+.bottom{width:100%;height:auto;display:block;float:left;}
+.player{display:block;width:90%;height:90%;float:left;margin-top:-1200px;opacity:0.15
+	;position:relative;}
+
+.footer_01{width:100%;height:450px;display:block;float:left;background:white;}
+.about_dot{width:85%;height: auto;display: block;margin:0 auto;position: relative;transform:translateY(-50%);top:50%;text-align: center;color:#333333;font-size:45px;font-weight:100;line-height:60px;letter-spacing:1px;font-weight:200;}
+.footer_02{width:100%;height:80px;display:block;float:left;text-align: center;line-height:80px;color:#999999;font-family:'苹方-简';font-weight:100;background:#333333;letter-spacing:1px;font-size:40px;}
+
+.gotop{width:76px;height:80px;display:block;background:rgba(102,102,102,0.80);position:fixed;bottom:50px;right:50px;z-index:20;padding:0 2px;border-radius:10px;cursor:pointer;}
+/**********区块3 结束**********/
+
+
+/**********弹窗 开始**********/
+.pop_outline_00{width:100%;min-width:1200px;height:100%;min-height:100vh; background:rgba(0,0,0,0.50);position:fixed;top:0px;left:0px;z-index:9999999999999999;display:none;}
+/**********弹窗 结束**********/
+
+
+.qq_mobile{width:100%;height:auto;float:left;margin-top:0px;}
+.qq_block{width:auto;height:40px;display:block;margin-left:200px;}
+.qq_word{width:250px;height:40px;float:left; font-size:25px;color:black;line-height:40px;text-align:center;background:white;font-weight:800;}
+.qq_number{width:auto;height:auto;float:left;font-size:40px;color:white;line-height:40px;margin-left:10px;}
+
+
+
+
+/********download page 开始*********/
+.dwl_out {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+.download_bg {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: url(../imges/dwl_bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.dwl_block {
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 100px 0;
+    position: relative;
+}
+.dwl_iphone {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+.dwl_iphoneImg1 , .dwl_iphoneImg2{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.dwl_iphoneImg1 img , .dwl_iphoneImg2 img , .dwl_iphoneImg3 img{
+	margin: 0 auto;
+	display: block;
+
+}
+
+.dwl_btn{width:auto;height:auto;float:right;margin-right:-30px;}
+.dwl_btn_block{width:498px;height:98px;display:block;text-align:center;line-height:100px;color:white;font-size:60px;margin:0 auto;margin-top: 79px;border:1px solid black;}
+.dwl_btn_block.apple{border:1px solid white;;transition:all 0.5s;cursor:pointer;border-radius:500px;color:white;}
+/* .dwl_btn_block.apple:hover{background:white;color:black;} */
+
+.dwl_sub{width:100%;height:auto;float:left; margin-top:120px;position:relative;transform:translateY(-25%);top:50%;}
+
+.dwl_btn_block.android{background:#516a08;transition:all 0.5s;cursor:pointer;border-radius:500px;}
+.dwl_btn_block.android:hover{background:#617f08;}
+
+.dwl_detail{width:100%;height:auto;float:right;color:white;font-size:50px;text-align:center;margin-top:-30px;text-shadow:1px 1px 10px rgba(0,0,0,0.5);}
+
+.per_block{width:100%;height:540px;float:left;background:#f4f4f4;}
+.per_bg{width:auto;height:540px;float:left;position:absolute;overflow:hidden;}
+.per_detail{width:90%;height:auto;margin:0 auto;display:block;position:relative;z-index:3;margin-top:50px;}
+.per_word_block{width:100%;height:auto;float:right;}
+.per_tittle{width:100%;height:auto;display:block; font-size:70px;font-weight:500;color:#000000;margin-bottom:10px;text-align:center;}
+.per_word{width:100%;height:198px;float:right;border:1px solid black;color:#333333;font-size:45px;padding:15px 15px;}
+
+.sign_block{width:100%;height:1000px;float:left;background:url(../imges/sign_bg.jpg) no-repeat;background-position:center;background-size:cover;}
+.sign_iphone {
+    width: 815px;
+    height: 572px;
+    /* background: url(../imges/sign_iphone.png) no-repeat; */
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.sign_iphone_bg{
+    width: 815px;
+    height: 572px;
+    background: url(../imges/sign_iphone.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    /* z-index: 20; */
+
+}
+
+.sign_iphone_slide{
+    width: 620px;
+    height: 430px;
+    background: #ccc;
+    position: relative;
+    overflow: hidden;
+    margin-top: 145px;
+    margin-left: 20px;
+}
+
+
+
+
+.item{
+    text-align: center;
+    line-height: 430px;
+    font-size: 20px;
+}
+
+
+
+
+.sign_detail{width:90%;height:auto;margin:0 auto;display:block;}
+.sign_word_block{width:100%;height:auto;display:block; margin-top:70px;}
+.sign_tittle{width:100%;height:auto;font-size:70px;font-weight:500;margin-bottom:10px;text-align:center;color:white;}
+.sign_word{width:100%;height:198px;border:1px solid white;font-size:50px;padding:15px 15px;color:white;font-weight:100;}
+
+.cheer_block{width:100%;min-width:750px;height:150px;float:left;background:url(../imges/cheer_bg.jpg) no-repeat;background-position:bottom;background-size:cover;}
+.cheer_detail{width:95%;height:auto;margin:0 auto;display:block;margin-top:50px;}
+.cheer_qr{width:300px;height:300px;display:block;margin:0 auto;background: white;margin-bottom:100px;}
+.cheer_word{width:100%;height:63px;border-top:1px solid white;border-bottom:1px solid white;line-height:65px;color:white;text-align:center;display:block;font-size:40px;letter-spacing:-1px;}
+
+.live_block {width: 100%;min-width: 750px;height: 1080px;float: left;background: url(../imges/live_bg.jpg) no-repeat;background-position:center;background-size:cover;}
+.live_word_block {width: 680px;height: auto;display:block;margin:0 auto;margin-top: 100px;}
+.live_word{width:80%;height:198px;border:1px solid white;font-size:47px;padding:15px 15px;color:white;font-weight:100;float:right;margin-top:60px;}
+
+
+.serve_block {width: 100%;min-width: 750px;height: 1080px;float: left;background: url(../imges/serve_bg.jpg) no-repeat;background-position:center;background-size:cover;}
+.serve_tittle {width: 100%;height: auto;font-size: 54px;font-weight: 500;margin-bottom:30px;text-align: center;color: black;margin-top:-50px;}
+.serve_word {width: 70%;height: 198px;float: right;border: 1px solid black;font-size: 47px;padding: 15px 15px;color:#333333 ;}
+.serve_detail {width: 1000px;height: auto;margin: 0 auto;display: block;}
+.serve_word_block {width: 100%;height: auto;float: right;margin-top: 70px;}
+
+.qr_block{width:289px;height:435px;display:block;margin:0 auto;margin-bottom:50px;}
+.qr_ios{width:289px;height:435px;float:left;}
+.qr_and{width:289px;height:435px;float:right;}
+.qr{width:260px;height:260px;float:left;padding:13.5px 13.5px;}
+.qr.ios{border:1px solid gray;width:200px;height:200px;}
+.qr.and{border:1px solid #84a429;margin-left:-40px;}
+
+
+.qr_first{width:280px;height:280px;display:block; padding:7px 7px;margin-bottom:20px;margin:0 auto;margin-top:20px;}
+.qr_first.ios{border:1px solid gray;}
+.qr_first.and{border:1px solid #84a429;}
+
+.qr_out{width:229px;height:auto;float:left;}
+.instal_block{width:227px;height: 50px;float:left;background:black;color:white;border-radius:500px;text-align:center;line-height:40px;font-size:25px;text-decoration:none;transition:all 0.5s;margin-top:10px;border:1px solid white;}
+.instal_block:hover{background:white;color:black;}
+/********download page 结束*********/
+
+
+
+
